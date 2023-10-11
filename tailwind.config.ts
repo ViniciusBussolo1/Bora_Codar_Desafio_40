@@ -9,12 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-button': 'linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%)',
+        'gradient-purple-linear':
+          'linear-gradient(90deg, #996DFF 0%, #C7AFFF 100%)',
       },
       colors: {
         black: '#09090A',
         white: '#FFFFFF',
         gray: '#C4C4CC',
+        'purple-linear': 'rgb(153,109,255)',
       },
     },
   },
