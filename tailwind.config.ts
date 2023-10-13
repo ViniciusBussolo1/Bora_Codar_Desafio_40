@@ -15,7 +15,10 @@ const config: Config = {
       colors: {
         black: '#09090A',
         white: '#FFFFFF',
-        gray: '#C4C4CC',
+        gray: {
+          200: '#C4C4CC',
+          800: '#202024',
+        },
         'purple-linear': 'rgb(153,109,255)',
       },
     },
